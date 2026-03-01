@@ -2,7 +2,7 @@
 
 ## Overview
 This project simulates heterogeneous AI training inspired by AMD Ryzen AI architecture.
-
+Due to hardware availability, heterogeneous training was demonstrated using Apple’s MPS (Metal Performance Shaders) backend. The pipeline design remains hardware-independent and can be deployed on AMD GPU systems using ROCm without architectural changes.
 We compare:
 
 1. CPU-only training
